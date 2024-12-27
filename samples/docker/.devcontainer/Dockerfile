@@ -20,7 +20,8 @@ RUN apt-get update && apt-get -y upgrade \
     texlive-latex-extra \
     biber chktex latexmk make python3-pygments python3-pkg-resources \
     texlive-lang-chinese \
-    texlive-lang-japanese
+    texlive-lang-japanese \
+    texlive-science
 
 # latexindent modules
 RUN apt-get install --no-install-recommends -y curl
